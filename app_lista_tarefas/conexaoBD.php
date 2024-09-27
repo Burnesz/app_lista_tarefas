@@ -5,7 +5,7 @@ class Conexao {
     private $host = '127.0.0.1';
     private $dbname = 'lista_tarefas';
     private $user = 'burnesz';
-    private $pass = 'Banco@123';
+    private $pass = '';
 
     public function conectar(){
 
