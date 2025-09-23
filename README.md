@@ -28,6 +28,7 @@ O "App Lista Tarefas" permite aos usuários criar, visualizar, editar, marcar co
 
 ## Estrutura do Projeto
 
+```
 /
 ├── app_lista_tarefas/         # Lógica principal da aplicação (back-end)
 │   ├── conexaoBD.php
@@ -45,6 +46,7 @@ O "App Lista Tarefas" permite aos usuários criar, visualizar, editar, marcar co
 │       ├── todas_tarefas.php     # Página com todas as tarefas
 │       └── tarefa_controller.php # Roteador para o controller principal
 └── banco_de_dados.sql         # Script de criação do banco de dados
+```
 
 ## Como Executar o Projeto
 
