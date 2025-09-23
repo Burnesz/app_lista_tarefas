@@ -29,22 +29,22 @@ O "App Lista Tarefas" permite aos usuários criar, visualizar, editar, marcar co
 ## Estrutura do Projeto
 
 /
-|-- app_lista_tarefas/         # Lógica principal da aplicação (back-end)
-|   |-- conexaoBD.php
-|   |-- tarefa.model.php
-|   |-- tarefa.service.php
-|   |-- tarefa_controller.php
-|-- htdocs/                    # Pasta pública (front-end)
-|   |-- app_lista_tarefas_public/
-|       |-- css/
-|       |   |-- estilo.css
-|       |-- img/
-|       |   |-- logo.png
-|       |-- index.php             # Página de tarefas pendentes
-|       |-- nova_tarefa.php       # Página para adicionar nova tarefa
-|       |-- todas_tarefas.php     # Página com todas as tarefas
-|       |-- tarefa_controller.php # Roteador para o controller principal
-|-- banco_de_dados.sql         # Script de criação do banco de dados
+├── app_lista_tarefas/         # Lógica principal da aplicação (back-end)
+│   ├── conexaoBD.php
+│   ├── tarefa.model.php
+│   ├── tarefa.service.php
+│   └── tarefa_controller.php
+├── htdocs/                    # Pasta pública (front-end)
+│   └── app_lista_tarefas_public/
+│       ├── css/
+│       │   └── estilo.css
+│       ├── img/
+│       │   └── logo.png
+│       ├── index.php             # Página de tarefas pendentes
+│       ├── nova_tarefa.php       # Página para adicionar nova tarefa
+│       ├── todas_tarefas.php     # Página com todas as tarefas
+│       └── tarefa_controller.php # Roteador para o controller principal
+└── banco_de_dados.sql         # Script de criação do banco de dados
 
 ## Como Executar o Projeto
 
